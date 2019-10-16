@@ -4,7 +4,7 @@ import time
 
 
 if __name__ == '__main__':
-    WAIT_TIME = 2
+    WAIT_TIME = 10
     while True:
         current_secs = datetime.now().second
         if (current_secs + 2) % 60 == 0:
